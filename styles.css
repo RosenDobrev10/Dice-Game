@@ -21,6 +21,8 @@ h1 {
 }
 
 button {
+  margin: 0 auto;
+  display: block;
   font-family: "Lobster", cursive;
   font-size: 2rem;
   background-color: transparent;
