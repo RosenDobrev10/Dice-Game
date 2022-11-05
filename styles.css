@@ -5,7 +5,6 @@
 }
 
 .dice {
-  text-align: center;
   display: inline-block;
 }
 
@@ -17,8 +16,23 @@ h1 {
   margin: 30px;
   font-family: "Lobster", cursive;
   text-shadow: 10px 0 #232931;
-  font-size: 8rem;
+  font-size: 7rem;
   color: #4ecca3;
+}
+
+button {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  background-color: transparent;
+  color: #4ecca3;
+  border: 2px solid #4ecca3;
+  border-radius: 8px;
+  padding: 12px 36px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scaleX(1.2);
 }
 
 p {
@@ -33,7 +47,7 @@ img {
 
 footer {
   font-size: 2rem;
-  margin-top: 4%;
+  margin-top: 2%;
   color: #eeeeee;
   text-align: center;
   font-family: "Indie Flower", cursive;
