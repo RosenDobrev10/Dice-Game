@@ -1,4 +1,5 @@
-document.querySelector('button').addEventListener('click', dice)
+const button = document.querySelector('button')
+button.addEventListener('click', dice)
 
 function dice() {
     let randomNumber1 = Math.floor(Math.random() * 6) + 1
